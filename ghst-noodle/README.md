@@ -85,9 +85,9 @@ https://discord.gg/qkDSBwzZ
 		["ramen"] 						 ={["name"] = "ramen", 	    					["label"] = "Ramen", 						["weight"] = 1000, 		["type"] = "item", 		["image"] = "ramen.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Coffee"},
 	
     
-   	 -- Poison Stuff (optional)
-		['pmcdbluefrozen'] 				 = {['name'] = 'pmcdbluefrozen', 			['label'] = 'Blue Slushi', 				['weight'] = 200, 		['type'] = 'item', 		['image'] = 'mcdbluefrozen.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Blue Slushii'},
-		['poison'] 			 			 = {['name'] = 'poison', 			  	['label'] = 'Poison', 			['weight'] = 0, 		['type'] = 'item', 		['image'] = 'poison.png', 		['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = {accept = {'mcdbluefrozen'}, reward = 'pmcdbluefrozen', anim = {['dict'] = 'anim@amb@business@weed@weed_inspecting_high_dry@', ['lib'] = 'weed_inspecting_high_base_inspector', ['text'] = 'Adding Poison', ['timeOut'] = 5000,}},   ['description'] = 'Will kill people with this '},
+ 	  	 -- Poison Stuff (optional)
+		['pmcdbluefrozen'] 				 = {['name'] = 'pmcdbluefrozen', 			['label'] = 'Blue Slushi', 				['weight'] = 200, 		['type'] = 'item', 		['image'] = 'mcdbluefrozen.png', 		['unique'] = false, 	['useable'] = 		true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Blue Slushii'},
+		['poison'] 			 			 = {['name'] = 'poison', 			  	['label'] = 'Poison', 			['weight'] = 0, 		['type'] = 'item', 		['image'] = 'poison.png', 		['unique'] = false, 	['useable'] = false, 		['shouldClose'] = true,	   ['combinable'] = {accept = {'mcdbluefrozen'}, reward = 'pmcdbluefrozen', anim = {['dict'] = 							'anim@amb@business@weed@weed_inspecting_high_dry@', ['lib'] = 'weed_inspecting_high_base_inspector', ['text'] = 'Adding Poison', ['timeOut'] = 5000,}},  		 ['description'] = 'Will kill people with this '},
 
 
 - Add these items to your `qb-doorlock > configs > noodle.lua`, this is for the doorlock. 
