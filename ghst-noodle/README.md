@@ -2,6 +2,8 @@
 # ZKLS Discord:
 https://discord.gg/qkDSBwzZ
 
+# Preview: Coming Soon 
+
 
 # Features:
 - Set all blip info from the config
