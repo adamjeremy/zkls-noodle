@@ -90,7 +90,8 @@ https://discord.gg/qkDSBwzZ
 
 - Add these items to your `qb-doorlock > configs > noodle.lua`, this is for the doorlock. 
 
--- 1 created by ZKLS
+-- created by ZKLS
+
 Config.DoorList['noodle-1'] = {
     doorType = 'double',
     distance = 3,
