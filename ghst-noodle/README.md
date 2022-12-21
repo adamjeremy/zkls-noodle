@@ -36,7 +36,7 @@ https://discord.gg/qkDSBwzZ
 
 - Add this job to your `qb-core > shared > jobs.lua`, they will automatically be made useable in this script
 
-    ['noodle'] = {
+		    ['noodle'] = {
         label = 'Noodle Exchange',
         defaultDuty = true,
         offDutyPay = false,
@@ -68,7 +68,7 @@ https://discord.gg/qkDSBwzZ
 
 - Add these items to your `qb-core > shared > items.lua`, they will automatically be made useable in this script
 
- --- NOODLE EXCHANGE
+ 		--- NOODLE EXCHANGE
 		-- Drinks
  		['mcdbluefrozen'] 				   	= {['name'] = 'mcdbluefrozen', 			  	['label'] = 'Blue Slushi', 					['weight'] = 200, 		['type'] = 'item', 		['image'] = 'mcdbluefrozen.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Pump 4 Caffeine'},
  		['mcdcokefrozen'] 				   	= {['name'] = 'mcdcokefrozen', 			  	['label'] = 'Coke Sushi', 					['weight'] = 200, 		['type'] = 'item', 		['image'] = 'mcdcokefrozen.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Pump 4 Caffeine'},
@@ -85,28 +85,28 @@ https://discord.gg/qkDSBwzZ
 		["ramen"] 						 ={["name"] = "ramen", 	    					["label"] = "Ramen", 						["weight"] = 1000, 		["type"] = "item", 		["image"] = "ramen.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Coffee"},
 	
     
-    -- Poison Stuff (optional)
+   	 -- Poison Stuff (optional)
 		['pmcdbluefrozen'] 				 = {['name'] = 'pmcdbluefrozen', 			['label'] = 'Blue Slushi', 				['weight'] = 200, 		['type'] = 'item', 		['image'] = 'mcdbluefrozen.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Blue Slushii'},
 		['poison'] 			 			 = {['name'] = 'poison', 			  	['label'] = 'Poison', 			['weight'] = 0, 		['type'] = 'item', 		['image'] = 'poison.png', 		['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = {accept = {'mcdbluefrozen'}, reward = 'pmcdbluefrozen', anim = {['dict'] = 'anim@amb@business@weed@weed_inspecting_high_dry@', ['lib'] = 'weed_inspecting_high_base_inspector', ['text'] = 'Adding Poison', ['timeOut'] = 5000,}},   ['description'] = 'Will kill people with this '},
 
 
 - Add these items to your `qb-doorlock > configs > noodle.lua`, this is for the doorlock. 
 
--- created by ZKLS
+		-- created by ZKLS
 
-Config.DoorList['noodle-1'] = {
-    doorType = 'double',
-    distance = 3,
-    authorizedJobs = { ['noodle'] = 0 },
-    items = { ['masterkey'] = 1 },
-    doors = {
-        {objName = -564814338, objYaw = 30.000001907349, objCoords = vec3(-1231.075317, -285.682312, 37.941742)},
-        {objName = -564814338, objYaw = 210.00001525879, objCoords = vec3(-1229.304932, -284.786285, 37.941742)}
-    },
-    doorRate = 1.0,
-    doorLabel = 'Noodle Exchange',
-    locked = true,
-}
+		Config.DoorList['noodle-1'] = {
+ 		   doorType = 'double',
+  		  distance = 3,
+		    authorizedJobs = { ['noodle'] = 0 },
+		    items = { ['masterkey'] = 1 },
+		    doors = {
+		        {objName = -564814338, objYaw = 30.000001907349, objCoords = vec3(-1231.075317, -285.682312, 37.941742)},
+		        {objName = -564814338, objYaw = 210.00001525879, objCoords = vec3(-1229.304932, -284.786285, 37.941742)}
+		    },
+		    doorRate = 1.0,
+		    doorLabel = 'Noodle Exchange',
+		    locked = true,
+		}
 
 
 - ONE MORE OPTIONAL FEATURE WOULD BE TO ADD THIS TO JIMS CONSUMABLES CONFIG 
