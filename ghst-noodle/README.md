@@ -29,8 +29,7 @@ https://discord.gg/qkDSBwzZ
 
 
 # How to Use:
-- Modify the config to the business you are setting up
-- Create your OWN custom items and add them to any of the tables for food/drink crafting
+- Modify the config to you liking before starting the script 
 
 # Install 
 
