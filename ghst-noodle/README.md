@@ -135,6 +135,7 @@ https://discord.gg/qkDSBwzZ
 # Dependencies:
 - qb-target
 - qb-menu
+- https://fivem.map4all-shop.com/package/4967544
 
 #### Credits:
 **Original v1.0 Write:** xThrasherrr#6666 & Redline Studios
